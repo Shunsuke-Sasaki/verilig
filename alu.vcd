@@ -1,0 +1,125 @@
+$date
+	Fri Apr 21 12:13:11 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module alutest $end
+$var wire 8 ! O0 [7:0] $end
+$var reg 8 " A [7:0] $end
+$var reg 8 # B [7:0] $end
+$var reg 4 $ C [3:0] $end
+$var reg 4 % CC [3:0] $end
+$var reg 4 & CTR [3:0] $end
+$var reg 8 ' INA [7:0] $end
+$var reg 8 ( INB [7:0] $end
+$var reg 8 ) O [7:0] $end
+$var reg 8 * OUT [7:0] $end
+$var reg 1 + ck $end
+$scope module ALU $end
+$var wire 8 , A [7:0] $end
+$var wire 8 - B [7:0] $end
+$var wire 4 . CTR [3:0] $end
+$var wire 1 + ck $end
+$var reg 4 / C [3:0] $end
+$var reg 8 0 INA [7:0] $end
+$var reg 8 1 INB [7:0] $end
+$var reg 8 2 O [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+bx -
+bx ,
+0+
+bx *
+bx )
+bx (
+bx '
+bx &
+bx %
+bx $
+bx #
+bx "
+bx !
+$end
+#10
+b0 !
+b0 2
+1+
+#20
+b1001 &
+b1001 .
+b10000001 #
+b10000001 -
+b100100 "
+b100100 ,
+0+
+#30
+b10100101 *
+b10000001 (
+b100100 '
+b1001 $
+b10000001 1
+b100100 0
+b1001 /
+1+
+#40
+b1101 &
+b1101 .
+b1101 #
+b1101 -
+b1100011 "
+b1100011 ,
+0+
+#50
+b11000110 *
+b10100101 !
+b10100101 2
+b1101 1
+b1100011 0
+b1101 /
+b10100101 )
+b1101 (
+b1100011 '
+b1001 %
+b1101 $
+1+
+#60
+b1 &
+b1 .
+b10010 #
+b10010 -
+b1100101 "
+b1100101 ,
+0+
+#70
+b1010011 *
+b11000110 )
+b10010 (
+b1100101 '
+b1101 %
+b1 $
+b0 !
+b0 2
+b10010 1
+b1100101 0
+b1 /
+1+
+#80
+b1101 &
+b1101 .
+b1110110 #
+b1110110 -
+b1101 "
+b1101 ,
+0+
